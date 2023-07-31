@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@esm/index.mjs';
+import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@v0.0.1-esm/index.mjs';
 ```
 
 #### firstCodePoint( str, n )
@@ -68,7 +68,7 @@ out = firstCodePoint( 'foo bar', 10 );
 <body>
 <script type="module">
 
-import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@esm/index.mjs';
+import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@v0.0.1-esm/index.mjs';
 
 var str = firstCodePoint( 'presidential election', 1 );
 // returns 'p'
