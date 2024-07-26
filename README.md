@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-first-code-point/tags). For example,
+
+```javascript
 import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@v0.2.2-esm/index.mjs';
 ```
 
@@ -79,7 +84,7 @@ out = firstCodePoint( 'foo bar', 10 );
 <body>
 <script type="module">
 
-import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@v0.2.2-esm/index.mjs';
+import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@esm/index.mjs';
 
 var str = firstCodePoint( 'presidential election', 1 );
 // returns 'p'
