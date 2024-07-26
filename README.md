@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@deno/mod.js';
+import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@v0.2.2-deno/mod.js';
 ```
 
 #### firstCodePoint( str, n )
@@ -74,7 +74,7 @@ out = firstCodePoint( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@deno/mod.js';
+import firstCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-first-code-point@v0.2.2-deno/mod.js';
 
 var str = firstCodePoint( 'presidential election', 1 );
 // returns 'p'
