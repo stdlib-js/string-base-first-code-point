@@ -121,6 +121,8 @@ str = firstCodePoint( 'अनुच्छेद', 1 );
 
 -   <span class="package-name">[`@stdlib/string-base/first`][@stdlib/string/base/first]</span><span class="delimiter">: </span><span class="description">return the first UTF-16 code unit of a string.</span>
 -   <span class="package-name">[`@stdlib/string-base/first-grapheme-cluster`][@stdlib/string/base/first-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">return the first grapheme cluster (i.e., user-perceived character) of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/last-code-point`][@stdlib/string/base/last-code-point]</span><span class="delimiter">: </span><span class="description">return the last Unicode code point of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/remove-first-code-point`][@stdlib/string/base/remove-first-code-point]</span><span class="delimiter">: </span><span class="description">remove the first Unicode code point of a string.</span>
 -   <span class="package-name">[`@stdlib/string-first`][@stdlib/string/first]</span><span class="delimiter">: </span><span class="description">return the first character(s) of a string.</span>
 
 </section>
@@ -204,6 +206,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/string/base/first]: https://github.com/stdlib-js/string-base-first
 
 [@stdlib/string/base/first-grapheme-cluster]: https://github.com/stdlib-js/string-base-first-grapheme-cluster
+
+[@stdlib/string/base/last-code-point]: https://github.com/stdlib-js/string-base-last-code-point
+
+[@stdlib/string/base/remove-first-code-point]: https://github.com/stdlib-js/string-base-remove-first-code-point
 
 [@stdlib/string/first]: https://github.com/stdlib-js/string-first
 
