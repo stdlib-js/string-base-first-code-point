@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-first-code-point",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Return the first Unicode code point of a string.",
   "license": "Apache-2.0",
   "author": {
